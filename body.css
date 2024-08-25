@@ -1,0 +1,12 @@
+html{
+    background-color:#e0ffff
+}
+body>h1{
+    font-size :60px;
+    text-align:center;
+    text-shadow:3px 3px 1px beige;
+}
+body>h2{
+    font-size : 30px;
+    border-bottom:5px solid black;
+}

@@ -1,0 +1,20 @@
+.time {
+    list-style: none;
+  }
+.time > li {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+  }
+  .time_time {
+    width: 110px;
+    float: left;
+    margin-top: 20px;
+  }
+  .time_cont {
+    width: 75%;
+    float: left;
+    border-left: 3px #e5e5d1 solid;
+    border-bottom:2px #e5e5d1 dotted;
+    padding-left: 30px;
+  }

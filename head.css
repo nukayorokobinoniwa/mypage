@@ -1,0 +1,7 @@
+.head>h1{
+    border-left: solid 3px;/*border-leftに3pxの太さで直線を引く*/
+    border-bottom:dotted 3px;/*border-leftに3pxの太さのドットを引く*/
+}
+.head{
+    border-bottom:2px solid;
+}

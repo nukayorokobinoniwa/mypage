@@ -1,0 +1,10 @@
+.index>ul>li{
+    display: inline;/*表示形式を横並びにする。*/
+    padding:0px,10px;
+    text-align:center;
+    background-color:lavender;
+}
+.headline{
+    font-size: 16px;
+    margin-bottom: 10px;
+}

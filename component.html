@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="KeyWord" content="UEC,unity,ぬか喜びの庭">
+    <meta name ="Description" content="UEC23のぬか喜びの庭。unityを勉強している。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unityのコンポーネントの種類</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="head.css">
+    <link rel="stylesheet" href="body.css">
+</head>
+<header class="head">
+    <h1 class="headline">
+        <a>ぬか喜びの庭のページ</a>
+    </h1>
+    <nav class = "index">
+    <ul>
+        <li><a href = "mypage.html#PR">プログラミング概歴</a></li>
+        <li><a href = "mypage.#tech">技術</a></li>
+        <li><a href = "mypage.#SC">勉強内容</a></li>
+        <li><a href = "mypage.#nikki">日記</a></li>
+        <li><a href = "#zikanwari">時間割</a></li>
+    </ul>
+    </nav>
+</header>
+<body>
+    <h1>unityのコンポーネントの種類</h1>
+    <p>コンポーネントの種類をまとめます。</p>
+    <h3>Audio</h3>
+    <h4>
+        Audio Clipに関するコンポーネント。音を鳴らすためにはAudio Clip,Audio Source,Audio Listenerの3つが必要。
+        Audio SourceにAudioClipをアタッチして、再生できる。AudioListenerがついているところから聞こえる音を流す。
+        Audio Listenerは1つのシーンに複数あるとエラーが起きる。
+    </h4>
+    <ul>
+        <li>
+                <p>
+                    <a href = "https://docs.unity3d.com/ja/2022.3/Manual/class-AudioChorusFilter.html">AudioChorusFilter</a>
+                </p>
+                <p>
+                    コーラスをつけるフィルター。 Audio Listenerを持つオブジェクトにアタッチすることで使用可能。
+                </p>
+        </li>
+        <li>
+            <p>
+                <a href="https://docs.unity3d.com/ja/2022.3/Manual/class-AudioDistortionFilter.html">Audio Distortion Filter</a>
+            </p>
+            <p>
+                トランシーバーのような音の歪みを発生させるフィルター。Audio Listenerを持つオブジェクトにアタッチすることで使用可能。
+            </p>
+        </li>
+        <li>
+            <p><a href="https://docs.unity3d.com/ja/2022.3/Manual/class-AudioEchoFilter.html">Audio Echo Filter</a></p>
+            <p>
+                音を遅れて流すことで反響音を作るフィルター。Audio Listenerを持つオブジェクトにアタッチすることで使用可能。
+            </p>
+        </li>
+        <li>
+            <p><a href="https://docs.unity3d.com/ja/2022.3/Manual/class-AudioHighPassFilter.html">Audio High Pass Filter</a></p>
+            <p>
+                低音を削るフィルター。Audio Listenerを持つオブジェクトにアタッチすることで使用可能。
+            </p>
+        </li>
+        <li>
+            <p><a href="https://docs.unity3d.com/ja/2022.3/Manual/class-AudioListener.html">Audio Listener</a></p>
+            <p>
+                マイクの役割をするコンポーネント。一般的にはmain cameraについている。Audio Listenerが1つのシーンに2つ以上存在するとエラーが発生する。
+            </p>
+        </li>
+        <li>
+            <p><a href="https://docs.unity3d.com/ja/2022.3/Manual/class-AudioLowPassFilter.html">Audio Low Pass Filter</a></p>
+            <p>
+                高音を削るフィルター。Audio Listenerを持つオブジェクトにアタッチすることで使用可能。
+            </p>
+        </li>
+        <li>
+            <p><a href="https://docs.unity3d.com/ja/2022.3/Manual/class-AudioReverbFilter.html">Audio Reverb Filter</a></p>
+            <p>
+                ホールのような残響音を作成するフィルター。Audio Listenerを持つオブジェクトにアタッチすることで使用可能。
+            </p>
+        </li>
+        <li>
+            <p><a href="https://docs.unity3d.com/ja/2022.3/Manual/class-AudioReverbZone.html">Audio Reverb zone</a></p>
+            <p>
+                ホールのような残響音を一定区間につけるオブジェクト。
+            </p>
+        </li>
+        <li>
+            <p><a href="https://docs.unity3d.com/ja/2022.3/Manual/class-AudioSource.html">Audio Sorce</a></p>
+            <p>
+                音源そのもの。オブジェクト。
+            </p>
+        </li>
+    </ul>
+</body>
+</html>
